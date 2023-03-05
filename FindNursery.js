@@ -1,13 +1,12 @@
-import * as React from 'react';
+import React, { useEffect, useState } from "react";
+import './SetMap.js'
 
-function findNursery(){
-    return (
-        <div>
-            <div className="heading-container">
-                <h3>Find Nursery</h3>
-            </div>
-        </div>
-    );
+function FindNursery() {
+  return (
+    <div>
+        <p>To see nearest nurseries, Allow your location</p>
+    </div>
+  );
 }
 
-export default findNursery;
+export default FindNursery;
